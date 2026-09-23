@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #171717;
+}
+
+
+/* CONTAINER PRINCIPAL */
+
+.container {
+    width: 96%;
+    height: 96vh;
+    margin: 2vh auto;
+
+    display: flex;
+}
+
+
+/* MENU DA ESQUERDA */
+
+.sidebar {
+    width: 12%;
+    background-color: #d8bfd8;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* LINKS */
+
+.link {
+    width: 65px;
+    height: 32px;
+
+    background-color: tomato;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 10px;
+}
+
+
+/* PARTE CENTRAL */
+
+.conteudo {
+    width: 78%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* HEADER */
+
+.header {
+    height: 80px;
+
+    background-color: tomato;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+}
+
+
+/* MAIN */
+
+.main {
+    flex-grow: 1;
+
+    background-color: lightgreen;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* CAIXA GRANDE */
+
+.caixa-grande {
+    width: 60%;
+    height: 190px;
+
+    background-color: lightblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* CAIXAS PEQUENAS */
+
+.caixas-pequenas {
+    width: 70%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 74px;
+}
+
+
+/* CAIXA PEQUENA */
+
+.caixa-pequena {
+    width: 40%;
+    height: 127px;
+
+    background-color: pink;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* LATERAL DIREITA */
+
+.direita {
+    width: 12%;
+
+    background-color: #f5deb3;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* ITENS DA DIREITA */
+
+.item {
+    width: 64px;
+    height: 64px;
+
+    background-color: cyan;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 10px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    height: 73px;
+
+    background-color: blueviolet;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+}
